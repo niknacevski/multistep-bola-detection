@@ -1,0 +1,150 @@
+{"sequence": "METHOD:GET PATH:/module/productcomments/CommentGrade ROLE:Customer [SEP] METHOD:GET PATH:/{id}-home ROLE:Customer", "label": 0}
+{"sequence": "METHOD:GET PATH:/ample/index.php ROLE:Anonymous PARAMS:page [SEP] METHOD:POST PATH:/ample/app/action/edit_update.php ROLE:Anonymous PARAMS:c_password,password,user_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/feedback.php ROLE:Anonymous [SEP] METHOD:GET PATH:/user/login.php ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards ROLE:User [SEP] METHOD:PUT PATH:/api/boards/{id} ROLE:User PARAMS:cardId,checklistId", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/preview ROLE:Logistician [SEP] METHOD:GET PATH:/module/productcomments/CommentGrade ROLE:Logistician", "label": 0}
+{"sequence": "METHOD:POST PATH:/api/v1/orders ROLE:Anonymous [SEP] METHOD:PUT PATH:/api/v1/checkouts/{val} ROLE:Anonymous PARAMS:bill_address_id,ship_address_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/ample/index.php ROLE:Anonymous PARAMS:page [SEP] METHOD:POST PATH:/ample/app/action/add_expense.php ROLE:Anonymous PARAMS:exp_descrip,expense_amount,expense_catagory,expense_date,expense_for", "label": 1}
+{"sequence": "METHOD:GET PATH:/groups.php ROLE:Admin [SEP] METHOD:GET PATH:/groups.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/psgdpr/ExportDataToCsv ROLE:Customer [SEP] METHOD:GET PATH:/ ROLE:Customer", "label": 0}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Manager [SEP] METHOD:GET PATH:/manage-files.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/ ROLE:User [SEP] METHOD:POST PATH:/api/v1/responses ROLE:User PARAMS:model", "label": 1}
+{"sequence": "METHOD:GET PATH:/users.php ROLE:Admin [SEP] METHOD:GET PATH:/users.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/edit-user.php ROLE:Anonymous PARAMS:id [SEP] METHOD:POST PATH:/admin/update-user.php ROLE:Anonymous PARAMS:depart,email,inputName,password,role,user_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}fEMS4cBbwx3YJ8jK/cards ROLE:User [SEP] METHOD:GET PATH:/api/boards/{id}fEMS4cBbwx3YJ8jK/members ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/process.php ROLE:Manager [SEP] METHOD:GET PATH:/includes/widgets/ajax/statistics.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/Mini/getCarousel ROLE:Admin [SEP] METHOD:GET PATH:/Mini/getHotList ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Staff [SEP] METHOD:GET PATH:/lms/admin/damage/manage_damage.php ROLE:Staff", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/View_Role.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/Add_Role.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/View_user.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/Operation/User.php ROLE:LeaveManager PARAMS:del_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/edit.php ROLE:User PARAMS:edit [SEP] METHOD:POST PATH:/edit.php ROLE:User PARAMS:firstname,lastname,email,borrow,password,user_id,confirm_password,date,user_address,None,submit,edit", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/oews/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/salary_slip_report.php ROLE:Salary [SEP] METHOD:GET PATH:/admin/salary_report.php ROLE:Salary", "label": 0}
+{"sequence": "METHOD:POST PATH:/clients.php ROLE:Manager PARAMS:action,batch[],csrf_token,select_all [SEP] METHOD:GET PATH:/clients.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-women ROLE:Customer [SEP] METHOD:GET PATH:/{id}-women ROLE:Customer", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-women ROLE:Customer [SEP] METHOD:GET PATH:/{id}-women ROLE:Customer", "label": 0}
+{"sequence": "METHOD:GET PATH:/login ROLE:Anonymous [SEP] METHOD:POST PATH:/login ROLE:Anonymous PARAMS:back,email,password,submitLogin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/dashboard.php ROLE:Anonymous [SEP] METHOD:GET PATH:/admin/update.php ROLE:Anonymous PARAMS:uemail", "label": 1}
+{"sequence": "METHOD:GET PATH:/user/edit-notes.php ROLE:User PARAMS:editid [SEP] METHOD:POST PATH:/user/edit-notes.php ROLE:User PARAMS:notesdesc,notestitle,subject,submit,editid", "label": 1}
+{"sequence": "METHOD:POST PATH:/users.php ROLE:Admin PARAMS:action,batch[],csrf_token,select_all [SEP] METHOD:GET PATH:/users.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Staff PARAMS:page [SEP] METHOD:POST PATH:/oews/classes/Users.php ROLE:Staff PARAMS:id,firstname,middlename,lastname,gender,email,contact,password,None,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/categories/search ROLE:Salesman [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/categories/{id} ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-home ROLE:Anonymous [SEP] METHOD:GET PATH:/module/productcomments/CommentGrade ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Anonymous PARAMS:page [SEP] METHOD:POST PATH:/lms/classes/Users.php ROLE:Anonymous PARAMS:id,firstname,middlename,lastname,username,password,None,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/AdvancedParams.94f6fb31.js ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/Switch.8a79adb4.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/download-information.php ROLE:Admin [SEP] METHOD:GET PATH:/files-edit.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-art ROLE:Anonymous [SEP] METHOD:GET PATH:/{id}-art ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Manager [SEP] METHOD:GET PATH:/manage-files.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/productcomments/ListComments ROLE:Anonymous [SEP] METHOD:GET PATH:/home-accessories/{id}-25-brown-bear-cushion.html ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/preview ROLE:Logistician [SEP] METHOD:GET PATH:/module/productcomments/CommentGrade ROLE:Logistician", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/sell/orders/list/{id}/status ROLE:Salesman PARAMS:value [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/orders/ ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Logistician [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Logistician", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Logistician [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Logistician", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/clients.php ROLE:Admin [SEP] METHOD:GET PATH:/clients.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/edit.php ROLE:Anonymous PARAMS:edit [SEP] METHOD:POST PATH:/edit.php ROLE:Anonymous PARAMS:firstname,lastname,email,borrow,password,user_id,confirm_password,date,user_address,None,submit,edit", "label": 1}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/sha256.65a6c54a.js ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/_commonjsHelpers.de833af9.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/process.php ROLE:Manager [SEP] METHOD:GET PATH:/upload/files/{id}-d033e22ae348aeb5660fc2140aec35850c4da997-invoice-12-05-2025.pdf ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/quizquestion.php ROLE:Anonymous PARAMS:q,eid,total [SEP] METHOD:POST PATH:/admin/result.php ROLE:Anonymous PARAMS:result,qid,eid", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/search/en ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/edit ROLE:Admin PARAMS:combination_list[_token],paginator-jump-page,paginator-limit,product[_token],product[combinations][availability][available_later_label][1],product[combinations][availability][available_now_label][1],product[combinations][availability][out_of_stock_type],product[description][categories][default_category_id],product[description][categories][product_categories][0][display_name],product[description][categories][product_categories][0][id],product[description][categories][product_categories][0][name],product[description][categories][product_categories][1][display_name],product[description][categories][product_categories][1][id],product[description][categories][product_categories][1][name],product[description][categories][product_categories][2][display_name],product[description][categories][product_categories][2][id],product[description][categories][product_categories][2][name],product[description][description][1],product[description][description_short][1],product[description][manufacturer],product[details][features][feature_values][0][custom_value][1],product[details][features][feature_values][0][custom_value_id],product[details][features][feature_values][0][feature_id],product[details][features][feature_values][0][feature_value_id],product[details][features][feature_values][1][custom_value][1],product[details][features][feature_values][1][custom_value_id],product[details][features][feature_values][1][feature_id],product[details][features][feature_values][1][feature_value_id],product[details][references][ean_13],product[details][references][isbn],product[details][references][mpn],product[details][references][reference],product[details][references][upc],product[details][show_condition],product[footer][save],product[header][active],product[header][cover_thumbnail],product[header][initial_type],product[header][name][1],product[header][type],product[options][suppliers][default_supplier_id],product[options][suppliers][supplier_ids][],product[options][visibility][available_for_order],product[options][visibility][online_only],product[options][visibility][visibility],product[pricing][disabling_switch_unit_price],product[pricing][priority_management][use_custom_priority],product[pricing][retail_price][price_tax_excluded],product[pricing][retail_price][price_tax_included],product[pricing][retail_price][tax_rules_group_id],product[pricing][wholesale_price],product[seo][link_rewrite][1],product[seo][meta_description][1],product[seo][meta_title][1],product[seo][redirect_option][type],product[seo][tags][1],product[shipping][additional_shipping_cost],product[shipping][delivery_time_note_type],product[shipping][dimensions][depth],product[shipping][dimensions][height],product[shipping][dimensions][weight],product[shipping][dimensions][width]", "label": 0}
+{"sequence": "METHOD:GET PATH:/clients.php ROLE:Manager [SEP] METHOD:GET PATH:/clients.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin/Operation/leaves.php ROLE:Salary PARAMS:btn_save,date,fname,l_type,month,total,year [SEP] METHOD:GET PATH:/admin/add_leaves.php ROLE:Salary", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/prompts/ ROLE:User [SEP] METHOD:GET PATH:/api/v1/documents/ ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/process.php ROLE:Manager [SEP] METHOD:GET PATH:/upload/files/{id}-d033e22ae348aeb5660fc2140aec35850c4da997-invoice-12-05-2025.pdf ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/specific-prices/list ROLE:Admin [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/catalog-price-rules/list-for-product/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/index.905f3474.js ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/create.4fbceb05.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/index.e31818e9.js ROLE:User [SEP] METHOD:GET PATH:/_app/immutable/chunks/index.505b608a.js ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/productcomments/ListComments ROLE:Translator [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/edit ROLE:Translator", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/users/{id}/boards ROLE:User [SEP] METHOD:PUT PATH:/api/boards/{id}/custom-fields/{id} ROLE:User", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/edit ROLE:Translator [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/edit ROLE:Translator", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/brands/{id}/toggle-status ROLE:Salesman [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/brands/ ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-accessories ROLE:Customer [SEP] METHOD:GET PATH:/{id}-accessories ROLE:Customer", "label": 0}
+{"sequence": "METHOD:GET PATH:/ample/index.php ROLE:Anonymous PARAMS:page,edit_id [SEP] METHOD:POST PATH:/ample/app/action/edit_cat.php ROLE:Anonymous PARAMS:cat_descrip,cat_name,id", "label": 1}
+{"sequence": "METHOD:POST PATH:/index.php ROLE:Salesman PARAMS:action,id_product,id_product_attribute [SEP] METHOD:POST PATH:/index.php ROLE:Salesman PARAMS:action,ajax,quantity_wanted,quickview", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}/cards/{id}/checklists/{id}/items/{id} ROLE:User [SEP] METHOD:PUT PATH:/api/boards/{id}/cards/{id}/checklists/{id}/items/{id} ROLE:User PARAMS:isFinished", "label": 1}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Admin [SEP] METHOD:POST PATH:/manage-files.php ROLE:Admin PARAMS:action,batch[],csrf_token,select_all", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/catalog-price-rules/list-for-product/{id} ROLE:Admin [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Salesman [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Logistician [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/orders/list/{id}/status ROLE:Logistician", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/knowledge/{uuid}/files ROLE:User [SEP] METHOD:DELETE PATH:/api/v1/files/{uuid} ROLE:User", "label": 1}
+{"sequence": "METHOD:GET PATH:/prices-drop ROLE:Anonymous [SEP] METHOD:GET PATH:/prices-drop ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Manager [SEP] METHOD:GET PATH:/process.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/productcomments/ListComments ROLE:Admin [SEP] METHOD:GET PATH:/img/favicon.ico ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Logistician [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Logistician", "label": 0}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Uploader [SEP] METHOD:GET PATH:/manage-files.php ROLE:Uploader", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/index.58b61bf1.js ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/index.cab7db71.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/address ROLE:Customer [SEP] METHOD:POST PATH:/address ROLE:Customer PARAMS:id_address,id_country", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/View_Role.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/Operation/Role.php ROLE:LeaveManager PARAMS:del_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/{id}-men ROLE:Anonymous [SEP] METHOD:GET PATH:/{id}-men ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/productcomments/CommentGrade ROLE:Customer [SEP] METHOD:GET PATH:/module/productcomments/ListComments ROLE:Customer", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin PARAMS:datepickerFrom,datepickerTo,submitDateDay", "label": 0}
+{"sequence": "METHOD:POST PATH:/manage-files.php ROLE:Manager PARAMS:action,batch[],csrf_token,select_all [SEP] METHOD:GET PATH:/manage-files.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/orders/ ROLE:Salesman [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:GET PATH:/ample/index.php ROLE:Anonymous PARAMS:page,edit_id [SEP] METHOD:POST PATH:/ample/app/action/edit_member.php ROLE:Anonymous PARAMS:address,company,contact,email,id,name", "label": 1}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Staff PARAMS:page [SEP] METHOD:POST PATH:/oews/classes/Master.php ROLE:Staff PARAMS:description,id,name,status,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/clients-requests.php ROLE:Admin [SEP] METHOD:GET PATH:/groups-add.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/manage-files.php ROLE:Manager PARAMS:action,batch[],csrf_token,select_all [SEP] METHOD:GET PATH:/manage-files.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/quizquestion.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/quizquestion.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/clients.php ROLE:Manager [SEP] METHOD:GET PATH:/clients.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/squareComment/getAllSquare/{val}/{val} ROLE:User [SEP] METHOD:POST PATH:/api/User/ChangeUser/{hex} ROLE:User PARAMS:userId", "label": 1}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Admin [SEP] METHOD:GET PATH:/manage-files.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/Mini/getAllSquare/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticle/getAllArticle/{id}/{id}/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/upload/files/{id}-d033e22ae348aeb5660fc2140aec35850c4da997-invoice-12-05-2025.pdf ROLE:Admin [SEP] METHOD:GET PATH:/manage-files.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/improve/design/modules/positions/unhook ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-home-accessories ROLE:Anonymous [SEP] METHOD:GET PATH:/{id}-home-accessories ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/ ROLE:User [SEP] METHOD:GET PATH:/index.php ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/login ROLE:Salesman [SEP] METHOD:GET PATH:/login ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:POST PATH:/user/setting.php ROLE:Admin PARAMS:confirmpassword,currentpassword,newpassword,submit [SEP] METHOD:GET PATH:/user/setting.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/productcomments/CommentGrade ROLE:Customer [SEP] METHOD:GET PATH:/module/productcomments/ListComments ROLE:Customer", "label": 0}
+{"sequence": "METHOD:GET PATH:/modules/blockreassurance/views/img/reassurance/pack2/security.svg ROLE:Salesman [SEP] METHOD:GET PATH:/modules/blockreassurance/views/img/reassurance/pack2/carrier.svg ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin PARAMS:compare_date_from,compare_date_to,date_from,date_to,datepickerFrom,datepickerTo,preselectDateRange,submitDateRange", "label": 0}
+{"sequence": "METHOD:GET PATH:/actions-log.php ROLE:Admin [SEP] METHOD:GET PATH:/actions-log.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Anonymous PARAMS:page [SEP] METHOD:POST PATH:/lms/classes/Master.php ROLE:Anonymous PARAMS:description,id,item_id,status,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Admin [SEP] METHOD:GET PATH:/manage-files.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/productcomments/ListComments ROLE:Translator [SEP] METHOD:POST PATH:/cart ROLE:Translator PARAMS:action,add,group[4],id_customization,id_product,qty,token", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/users/search ROLE:User [SEP] METHOD:POST PATH:/api/v1/memories/{uuid}/update ROLE:User", "label": 1}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin PARAMS:datepickerFrom,datepickerTo,submitDateDayPrev", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view_leaves.php ROLE:Salary [SEP] METHOD:POST PATH:/admin/edit_leaves.php ROLE:Salary PARAMS:id", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin PARAMS:searchEmail,searched_email", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-clothes ROLE:Anonymous [SEP] METHOD:GET PATH:/{id}-clothes ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/clients.php ROLE:Manager [SEP] METHOD:GET PATH:/clients.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:GET PATH:/login ROLE:Salesman [SEP] METHOD:GET PATH:/login ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin PARAMS:datepickerFrom,datepickerTo,submitDateDayPrev [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/ample/index.php ROLE:Anonymous PARAMS:page,edit_id [SEP] METHOD:POST PATH:/ample/app/action/edit_product.php ROLE:Anonymous PARAMS:alert_quantity,brand,buy_price,id,p_catagory,product_name,product_source,quantity,selling_price,sku", "label": 1}
+{"sequence": "METHOD:POST PATH:/login ROLE:Admin PARAMS:back,email,password,submitLogin [SEP] METHOD:GET PATH:/login ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/LwihSG7HGP9inDsya/lists/{id}WQxfJAZ8wnQDKD7/cards ROLE:User [SEP] METHOD:GET PATH:/api/boards/LwihSG7HGP9inDsya/swimlanes/bfqcWgg2bCdygwqDL ROLE:User", "label": 0}
+{"sequence": "METHOD:POST PATH:/options.php ROLE:Admin PARAMS:base_uri,csrf_token,download_method,files_default_expire_days_after,footer_custom_content,pagination_results_per_page,section,this_install_title,timeformat,timezone [SEP] METHOD:GET PATH:/options.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/edit ROLE:Salesman [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/edit ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Anonymous PARAMS:page [SEP] METHOD:POST PATH:/oews/classes/Master.php ROLE:Anonymous PARAMS:description,id,name,status,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Admin [SEP] METHOD:GET PATH:/process.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Anonymous PARAMS:uploader,assigned,orderby,order [SEP] METHOD:GET PATH:/process.php ROLE:Anonymous PARAMS:do,file_id,_", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin/all-applied-leave.php ROLE:Anonymous [SEP] METHOD:POST PATH:/admin/all-applied-leave.php ROLE:Anonymous PARAMS:comment,id,rejected", "label": 1}
+{"sequence": "METHOD:GET PATH:/ample/index.php ROLE:Anonymous PARAMS:page,edit_id [SEP] METHOD:POST PATH:/ample/app/action/edit_suppliar.php ROLE:Anonymous PARAMS:address,company,contact,email,id,name", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin/view_borrow.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/Operation/borrow.php ROLE:LeaveManager PARAMS:del_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/login ROLE:Anonymous [SEP] METHOD:GET PATH:/login ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/actions-log.php ROLE:Admin [SEP] METHOD:GET PATH:/actions-log.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/upload/files/{id}-d033e22ae348aeb5660fc2140aec35850c4da997-invoice-12-05-2025.pdf ROLE:Manager [SEP] METHOD:GET PATH:/manage-files.php ROLE:Manager", "label": 0}
+{"sequence": "METHOD:POST PATH:/order ROLE:Anonymous PARAMS:birthday,continue,customer_privacy,email,firstname,id_gender,lastname,newsletter,optin,password,psgdpr,submitCreate [SEP] METHOD:GET PATH:/order ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/productcomments/CommentGrade ROLE:Translator [SEP] METHOD:GET PATH:/module/productcomments/ListComments ROLE:Translator", "label": 0}
+{"sequence": "METHOD:GET PATH:/email-test.php ROLE:Admin [SEP] METHOD:POST PATH:/email-test.php ROLE:Admin PARAMS:csrf_token,message,section,submit,to", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin [SEP] METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/common/notifications ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-accessories ROLE:Customer [SEP] METHOD:GET PATH:/{id}-accessories ROLE:Customer", "label": 0}
+{"sequence": "METHOD:GET PATH:/process.php ROLE:Admin [SEP] METHOD:GET PATH:/download-information.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/{id}/toggle-status-for-shop/{id} ROLE:Translator [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/products-v2/ ROLE:Translator", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-accessories ROLE:Customer [SEP] METHOD:GET PATH:/{id}-accessories ROLE:Customer", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/index.945440b6.js ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/index.21de81fa.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/{id}-clothes ROLE:Customer [SEP] METHOD:GET PATH:/{id}-clothes ROLE:Customer", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/psgdpr/ExportDataToPdf ROLE:Customer [SEP] METHOD:GET PATH:/module/psgdpr/ExportDataToPdf ROLE:Customer", "label": 0}
+{"sequence": "METHOD:GET PATH:/manage-files.php ROLE:Admin [SEP] METHOD:GET PATH:/manage-files.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/addresses/order/{id}/delivery/edit ROLE:Salesman [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/addresses/order/{id}/invoice/edit ROLE:Salesman", "label": 0}
+{"sequence": "METHOD:GET PATH:/includes/widgets/ajax/actions-log.php ROLE:Admin [SEP] METHOD:GET PATH:/includes/widgets/ajax/news.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php/sell/catalog/catalog-price-rules/list-for-product/{id} ROLE:Admin [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/module/blockwishlist/view ROLE:Customer [SEP] METHOD:GET PATH:/module/blockwishlist/lists ROLE:Customer", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin PARAMS:datepickerFrom,datepickerTo,submitDateDay [SEP] METHOD:GET PATH:/admin589euclusrd3dvesrax/index.php ROLE:Admin", "label": 0}

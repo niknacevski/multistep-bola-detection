@@ -1,0 +1,11 @@
+{"sequence": "METHOD:GET PATH:/user/edit-notes.php ROLE:User PARAMS:editid [SEP] METHOD:POST PATH:/user/edit-notes.php ROLE:User PARAMS:notesdesc,notestitle,subject,submit,editid", "label": 1}
+{"sequence": "METHOD:GET PATH:/user/profile.php ROLE:User [SEP] METHOD:GET PATH:/user/setting.php ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/changefile2.php ROLE:User [SEP] METHOD:GET PATH:/user/folder2/{hex}.pdf ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/dashboard.php ROLE:Admin [SEP] METHOD:GET PATH:/user/manage-notes.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/setting.php ROLE:Admin [SEP] METHOD:POST PATH:/user/setting.php ROLE:Admin PARAMS:confirmpassword,currentpassword,newpassword,submit", "label": 0}
+{"sequence": "METHOD:POST PATH:/user/profile.php ROLE:Admin PARAMS:email,mobilenumber,name,submit [SEP] METHOD:GET PATH:/user/profile.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/manage-notes.php ROLE:Admin [SEP] METHOD:GET PATH:/user/changefile1.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/folder1/{hex}.pdf ROLE:Admin [SEP] METHOD:GET PATH:/user/changefile2.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/changefile3.php ROLE:Admin [SEP] METHOD:GET PATH:/user/changefile2.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/edit-notes.php ROLE:Admin [SEP] METHOD:POST PATH:/user/edit-notes.php ROLE:Admin PARAMS:notesdesc,notestitle,subject,submit", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/edit-notes.php ROLE:Admin [SEP] METHOD:POST PATH:/user/edit-notes.php ROLE:Admin PARAMS:notesdesc,notestitle,subject,submit", "label": 0}

@@ -1,0 +1,12 @@
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Anonymous PARAMS:page [SEP] METHOD:POST PATH:/oews/classes/Master.php ROLE:Anonymous PARAMS:description,id,name,status,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Staff PARAMS:page [SEP] METHOD:POST PATH:/oews/classes/Users.php ROLE:Staff PARAMS:id,firstname,middlename,lastname,gender,email,contact,password,None,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Staff PARAMS:page [SEP] METHOD:POST PATH:/oews/classes/Master.php ROLE:Staff PARAMS:description,id,name,status,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/oews/admin/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/oews/admin/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/oews/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/oews/admin/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/uploads/logo.png ROLE:Admin [SEP] METHOD:GET PATH:/oews/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/ ROLE:Admin [SEP] METHOD:GET PATH:/oews/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/oews/admin/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/ ROLE:Admin [SEP] METHOD:GET PATH:/oews/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/oews/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/oews/admin/ ROLE:Admin", "label": 0}

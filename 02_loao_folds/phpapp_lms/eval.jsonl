@@ -1,0 +1,12 @@
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Anonymous PARAMS:page [SEP] METHOD:POST PATH:/lms/classes/Master.php ROLE:Anonymous PARAMS:description,id,item_id,status,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Anonymous PARAMS:page [SEP] METHOD:POST PATH:/lms/classes/Users.php ROLE:Anonymous PARAMS:id,firstname,middlename,lastname,username,password,None,f", "label": 1}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/lms/admin/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin ROLE:Staff [SEP] METHOD:GET PATH:/lms/ ROLE:Staff", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/lms/admin/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/ ROLE:Staff [SEP] METHOD:GET PATH:/lms/admin ROLE:Staff", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/borrows/manage_borrow.php ROLE:Staff [SEP] METHOD:GET PATH:/lms/admin/ ROLE:Staff", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Staff [SEP] METHOD:GET PATH:/lms/admin/damage/manage_damage.php ROLE:Staff", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/lms/admin/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Admin [SEP] METHOD:GET PATH:/lms/admin/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Staff [SEP] METHOD:GET PATH:/lms/admin ROLE:Staff", "label": 0}
+{"sequence": "METHOD:GET PATH:/lms/admin/ ROLE:Staff [SEP] METHOD:GET PATH:/lms/admin/ ROLE:Staff", "label": 0}

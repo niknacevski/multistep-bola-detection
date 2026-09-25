@@ -1,0 +1,11 @@
+{"sequence": "METHOD:GET PATH:/api/snapshots ROLE:Viewer [SEP] METHOD:DELETE PATH:/api/snapshots/{hex} ROLE:Viewer", "label": 1}
+{"sequence": "METHOD:GET PATH:/avatar/{id}d229b033af06a191ff2267bca9ae56 ROLE:Admin [SEP] METHOD:GET PATH:/api/user/orgs ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/search?type={val}&query=&limit={val} ROLE:Viewer [SEP] METHOD:GET PATH:/api/snapshots ROLE:Viewer", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/search?limit={val}&type={val} ROLE:Admin [SEP] METHOD:GET PATH:/avatar/{id}d229b033af06a191ff2267bca9ae56 ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/dashboards/home ROLE:Admin [SEP] METHOD:GET PATH:/avatar/{id}d229b033af06a191ff2267bca9ae56 ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/search?limit={val}&type={val} ROLE:Admin [SEP] METHOD:GET PATH:/alerting/list ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/plugins?embedded={val}&core={val} ROLE:Admin [SEP] METHOD:GET PATH:/api/search?limit={val}&starred={val} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/org/invites ROLE:Admin [SEP] METHOD:GET PATH:/avatar/{id}d229b033af06a191ff2267bca9ae56 ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/org/users ROLE:Admin [SEP] METHOD:GET PATH:/api/org/users/search?perpage={val}&page={val}&query=&accesscontrol={val} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/avatar/{id}d229b033af06a191ff2267bca9ae56 ROLE:Admin [SEP] METHOD:GET PATH:/api/user/orgs ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/user/orgs ROLE:Admin [SEP] METHOD:GET PATH:/api/search?limit={val}&type={val} ROLE:Admin", "label": 0}

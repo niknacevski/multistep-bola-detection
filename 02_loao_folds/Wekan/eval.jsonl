@@ -1,0 +1,13 @@
+{"sequence": "METHOD:GET PATH:/api/users/{id}/boards ROLE:User [SEP] METHOD:PUT PATH:/api/boards/{id}/custom-fields/{id} ROLE:User", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/boards ROLE:User [SEP] METHOD:PUT PATH:/api/boards/{id} ROLE:User PARAMS:cardId,checklistId", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}/cards/{id}/checklists/{id}/items/{id} ROLE:User [SEP] METHOD:PUT PATH:/api/boards/{id}/cards/{id}/checklists/{id}/items/{id} ROLE:User PARAMS:isFinished", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/boards/okniZcxjk7Eu6THCG/lists ROLE:User [SEP] METHOD:GET PATH:/api/boards/okniZcxjk7Eu6THCG/cards ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/YjxWuouoLQaCbqBGG/customFields ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/YjxWuouoLQaCbqBGG/swimlanes ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/usxwBLQ3iFvSKgbWK/members ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/usxwBLQ3iFvSKgbWK/customFields ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/users/aj3QLojsMNgMPr8Dp ROLE:User [SEP] METHOD:GET PATH:/api/users ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/users ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/{id}ai93tgraDTnfo5rC ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/okniZcxjk7Eu6THCG/swimlanes/cp8fG6SwDn55kGEA7 ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/NkudmPDpuKCKfWqEm ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}XQ9ooaPQQSZFT4k3/cards ROLE:User [SEP] METHOD:GET PATH:/api/boards/{id}XQ9ooaPQQSZFT4k3/members ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}GAcZwHjfx6ZNC8qt/lists/{id}WtcnyLRnjFwXZRAx/cards ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/{id}GAcZwHjfx6ZNC8qt/lists/{id}jQLSjSajmv5T8r5F/cards ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}GAcZwHjfx6ZNC8qt/cards ROLE:User [SEP] METHOD:GET PATH:/api/boards/{id}GAcZwHjfx6ZNC8qt/members ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/YjxWuouoLQaCbqBGG/swimlanes ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/YjxWuouoLQaCbqBGG/lists/WYwr3RHHo8wPPiQoS/cards ROLE:Admin", "label": 0}

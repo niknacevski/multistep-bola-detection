@@ -1,0 +1,13 @@
+{"sequence": "METHOD:GET PATH:/admin/view_borrow.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/Operation/borrow.php ROLE:LeaveManager PARAMS:del_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin/View_user.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/Operation/User.php ROLE:LeaveManager PARAMS:del_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin/View_Role.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/Operation/Role.php ROLE:LeaveManager PARAMS:del_id", "label": 1}
+{"sequence": "METHOD:POST PATH:/admin/fetchleave.php ROLE:Admin PARAMS:id [SEP] METHOD:POST PATH:/admin/fetchleave.php ROLE:Admin PARAMS:id", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin/Operation/leaves.php ROLE:Salary PARAMS:del_id [SEP] METHOD:GET PATH:/admin/view_leaves.php ROLE:Salary", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view_borrow.php ROLE:BorrowManager [SEP] METHOD:POST PATH:/admin/edit_borrow.php ROLE:BorrowManager PARAMS:id", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view_leaves.php ROLE:Salary [SEP] METHOD:POST PATH:/admin/edit_leaves.php ROLE:Salary PARAMS:id", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view_leaves.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/edit_leaves.php ROLE:LeaveManager PARAMS:id", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/report_inc.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/borror_report.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin/Update_User.php ROLE:Admin PARAMS:id [SEP] METHOD:GET PATH:/admin/View_user.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view_leaves.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/view_salary.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin/fetchleave.php ROLE:Admin PARAMS:id [SEP] METHOD:POST PATH:/admin/fetchleave.php ROLE:Admin PARAMS:id", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/add_salary.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/Operation/salary.php ROLE:Admin", "label": 0}

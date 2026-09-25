@@ -1,0 +1,11 @@
+{"sequence": "METHOD:POST PATH:/api/v1/orders ROLE:Anonymous [SEP] METHOD:PUT PATH:/api/v1/checkouts/{val} ROLE:Anonymous PARAMS:bill_address_id,ship_address_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/v1/orders?page={val} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/products?page={val} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/stock_locations ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/zones ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/orders?page={val} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/products?page={val} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v2/storefront/account/addresses ROLE:User [SEP] METHOD:GET PATH:/api/v2/storefront/account/orders ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/products/{id} ROLE:User [SEP] METHOD:GET PATH:/api/v1/products/{id} ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/states ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/variants ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/products?page={val} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/orders?page={val} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/products/{id} ROLE:User [SEP] METHOD:GET PATH:/api/v1/products/{id} ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/variants ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/promotions ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/products/{id} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/users/{id} ROLE:Admin", "label": 0}

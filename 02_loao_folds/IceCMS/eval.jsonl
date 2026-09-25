@@ -1,0 +1,11 @@
+{"sequence": "METHOD:GET PATH:/squareComment/getAllSquare/{val}/{val} ROLE:User [SEP] METHOD:POST PATH:/api/User/ChangeUser/{hex} ROLE:User PARAMS:userId", "label": 1}
+{"sequence": "METHOD:GET PATH:/WebArticle/getUserFavorites/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/Websuser/getUserInfobyid/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebArticleComment/getNewArticleComment/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticleComment/getNewArticleComment/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebArticle/getArticleById/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticle/getUserFavorites/{id}/{id}/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebResource/getAllResource/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/Mini/getAllSquare/{id}/{id}/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/Mini/getAllSquare/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticle/getAllArticle/{id}/{id}/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebArticle/getAllArticle/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebResource/getAllResource/{id}/{id}/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/Websuser/getCurrentUserInfo ROLE:User [SEP] METHOD:GET PATH:/Websuser/getUserInfobyid/{id} ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebResource/getAllResource/{id}/{id}/{id} ROLE:User [SEP] METHOD:GET PATH:/WebArticleComment/getNewArticleComment/{id} ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebArticle/getAllArticle/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebResource/getAllResource/{id}/{id}/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebArticle/getAllArticle/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebResource/getAllResource/{id}/{id}/{id} ROLE:Admin", "label": 0}

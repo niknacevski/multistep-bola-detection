@@ -1,0 +1,12 @@
+{"sequence": "METHOD:GET PATH:/api/v1/users/search ROLE:User [SEP] METHOD:POST PATH:/api/v1/memories/{uuid}/update ROLE:User", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/v1/knowledge/{uuid}/files ROLE:User [SEP] METHOD:DELETE PATH:/api/v1/files/{uuid} ROLE:User", "label": 1}
+{"sequence": "METHOD:GET PATH:/ws/socket.io/?EIO={val}&transport={val}&t={val} ROLE:User [SEP] METHOD:GET PATH:/api/v1/auths/ ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/index.e31818e9.js ROLE:User [SEP] METHOD:GET PATH:/_app/immutable/chunks/index.505b608a.js ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/Dropdown.268d4eaa.js ROLE:User [SEP] METHOD:GET PATH:/_app/immutable/chunks/DocumentDuplicate.7b80d4fe.js ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/assets/fonts/Inter-Variable.ttf ROLE:User [SEP] METHOD:GET PATH:/assets/fonts/Archivo-Variable.ttf ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/Valves.0441dd3c.js ROLE:User [SEP] METHOD:GET PATH:/_app/immutable/chunks/Dropdown.268d4eaa.js ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/index.f3fc5fa5.js ROLE:User [SEP] METHOD:GET PATH:/_app/immutable/chunks/index.699689a0.js ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/chats/list?page={val} ROLE:User [SEP] METHOD:GET PATH:/api/v1/chats/list?page={val} ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/assets/Toaster.ebb080d6.css ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/index.a7568345.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/Modal.9e048b4e.js ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/index.e31818e9.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/entry/app.a3e17dab.js ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/preload-helper.a4192956.js ROLE:Admin", "label": 0}

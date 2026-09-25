@@ -1,0 +1,12 @@
+{"sequence": "METHOD:GET PATH:/admin/quizquestion.php ROLE:Anonymous PARAMS:q,eid,total [SEP] METHOD:POST PATH:/admin/result.php ROLE:Anonymous PARAMS:result,qid,eid", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin/dashboard.php ROLE:Anonymous [SEP] METHOD:GET PATH:/admin/update.php ROLE:Anonymous PARAMS:uemail", "label": 1}
+{"sequence": "METHOD:GET PATH:/ ROLE:Anonymous [SEP] METHOD:GET PATH:/image/{id}.png ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/unotification.php ROLE:User [SEP] METHOD:GET PATH:/user/aupdate.php ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/showquiz.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/quizquestion.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/quizquestion.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/update.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/user/quizquestion.php ROLE:User [SEP] METHOD:GET PATH:/user/quizquestion.php ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/meeting.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/includes/meet.html ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/ ROLE:Anonymous [SEP] METHOD:GET PATH:/index.php ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/index.php ROLE:Anonymous [SEP] METHOD:GET PATH:/ ROLE:Anonymous", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/quizquestion.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/quizquestion.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/update.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/update.php ROLE:Admin", "label": 0}

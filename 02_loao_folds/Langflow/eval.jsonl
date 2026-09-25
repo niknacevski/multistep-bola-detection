@@ -1,0 +1,11 @@
+{"sequence": "METHOD:GET PATH:/api/v1/flows/ ROLE:User [SEP] METHOD:POST PATH:/api/v1/responses ROLE:User PARAMS:model", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/{id}e6b5ee3-3efc-49c9-8001-bc331672bb8f ROLE:User [SEP] METHOD:GET PATH:/api/v1/flows/{uuid} ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/{uuid} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/flows/{uuid} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/{uuid} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/flows/{id}fa8ea-86ba-4a10-9c64-2305ec0b2bf3 ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/{id}f7e94-ed6f-4e7e-99ce-70ae3994350c ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/flows/{id}ff-4ed5-44da-8959-ff1516d83593 ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/{uuid} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/flows/{id}b8900d-2187-4764-9805-69de363399c5 ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/{id}e6b5ee3-3efc-49c9-8001-bc331672bb8f ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/flows/{uuid} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/{uuid} ROLE:User [SEP] METHOD:GET PATH:/api/v1/flows/{id}d70ff5b-7f14-4a49-9efb-261bd1ea22df ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/{uuid} ROLE:User [SEP] METHOD:GET PATH:/api/v1/flows/{id}e6b5ee3-3efc-49c9-8001-bc331672bb8f ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/ ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/users/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/flows/{id}d70ff5b-7f14-4a49-9efb-261bd1ea22df ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/flows/{id}cf0eaa8-99a4-4997-9880-03b0090e90d7 ROLE:Admin", "label": 0}

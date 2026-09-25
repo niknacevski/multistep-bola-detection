@@ -1,0 +1,12 @@
+{"sequence": "METHOD:GET PATH:/admin/all-applied-leave.php ROLE:Anonymous [SEP] METHOD:POST PATH:/admin/all-applied-leave.php ROLE:Anonymous PARAMS:comment,id,rejected", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin/edit-user.php ROLE:Anonymous PARAMS:id [SEP] METHOD:POST PATH:/admin/update-user.php ROLE:Anonymous PARAMS:depart,email,inputName,password,role,user_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin/view-message.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/view-message.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view-message.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/view-message.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view-message.php ROLE:Admin [SEP] METHOD:POST PATH:/admin/view-message.php ROLE:Admin PARAMS:m_id,m_reply,user_id", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/all-applied-leave.php ROLE:Admin [SEP] METHOD:POST PATH:/admin/all-applied-leave.php ROLE:Admin PARAMS:comment,id,rejected", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/insert-task.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/all-applied-leave.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/edit-user.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/edit-user.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view-message.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/view-message.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view-message.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/view-message.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin/view-message.php ROLE:Admin PARAMS:m_id,m_reply,user_id [SEP] METHOD:GET PATH:/admin/view-message.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view-message.php ROLE:Admin [SEP] METHOD:GET PATH:/admin/view-message.php ROLE:Admin", "label": 0}
