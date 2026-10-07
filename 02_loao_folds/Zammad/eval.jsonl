@@ -1,0 +1,11 @@
+{"sequence": "METHOD:GET PATH:/api/v1/tickets ROLE:User [SEP] METHOD:GET PATH:/api/v1/ticket_related/{id} ROLE:User", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/v1/tickets?page={val}&per_page={val} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/users?page={val}&per_page={val} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/users?page={val}&per_page={val} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/tickets?page={val}&per_page={val} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/ticket_related/{id} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/ticket_related/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/api/v1/ticket_articles ROLE:Admin [SEP] METHOD:POST PATH:/api/v1/ticket_articles ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/api/v1/tickets ROLE:Admin [SEP] METHOD:PUT PATH:/api/v1/tickets/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/tickets?page={val}&per_page={val} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/users?page={val}&per_page={val} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/users/{id} ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/users/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/tags ROLE:User [SEP] METHOD:GET PATH:/api/v1/tickets?page={val}&per_page={val} ROLE:User", "label": 0}
+{"sequence": "METHOD:POST PATH:/api/v1/tags/add ROLE:Admin [SEP] METHOD:POST PATH:/api/v1/tags/add ROLE:Admin", "label": 0}
+{"sequence": "METHOD:POST PATH:/api/v1/tickets ROLE:Admin [SEP] METHOD:POST PATH:/api/v1/tickets ROLE:Admin", "label": 0}

@@ -1,0 +1,13 @@
+{"sequence": "METHOD:GET PATH:/admin/view_borrow.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/Operation/borrow.php ROLE:LeaveManager PARAMS:del_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin/View_user.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/Operation/User.php ROLE:LeaveManager PARAMS:del_id", "label": 1}
+{"sequence": "METHOD:GET PATH:/admin/View_Role.php ROLE:LeaveManager [SEP] METHOD:POST PATH:/admin/Operation/Role.php ROLE:LeaveManager PARAMS:del_id", "label": 1}
+{"sequence": "METHOD:POST PATH:/admin/Operation/borrow.php ROLE:BorrowManager PARAMS:amount,btn_save,month,name,reason,year [SEP] METHOD:GET PATH:/admin/add_borrow.php ROLE:BorrowManager", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin/Operation/borrow.php ROLE:BorrowManager PARAMS:del_id [SEP] METHOD:GET PATH:/admin/view_borrow.php ROLE:BorrowManager", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/add_salary.php ROLE:Admin [SEP] METHOD:POST PATH:/admin/fetch.php ROLE:Admin PARAMS:id", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin/edit_leaves.php ROLE:Salary PARAMS:id [SEP] METHOD:GET PATH:/admin/view_leaves.php ROLE:Salary", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/add_borrow.php ROLE:BorrowManager [SEP] METHOD:GET PATH:/admin/view_borrow.php ROLE:BorrowManager", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin/edit_borrow.php ROLE:Admin PARAMS:id [SEP] METHOD:GET PATH:/admin/view_borrow.php ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view_leaves.php ROLE:Admin [SEP] METHOD:POST PATH:/admin/edit_leaves.php ROLE:Admin PARAMS:id", "label": 0}
+{"sequence": "METHOD:POST PATH:/admin/salary_slip.php ROLE:Salary PARAMS:id [SEP] METHOD:GET PATH:/admin/salary_slip_report.php ROLE:Salary", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/add_leaves.php ROLE:Salary [SEP] METHOD:GET PATH:/admin/view_leaves.php ROLE:Salary", "label": 0}
+{"sequence": "METHOD:GET PATH:/admin/view_borrow.php ROLE:BorrowManager [SEP] METHOD:POST PATH:/admin/edit_borrow.php ROLE:BorrowManager PARAMS:id", "label": 0}

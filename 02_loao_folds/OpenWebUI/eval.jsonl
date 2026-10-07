@@ -1,0 +1,12 @@
+{"sequence": "METHOD:GET PATH:/api/v1/users/search ROLE:User [SEP] METHOD:POST PATH:/api/v1/memories/{uuid}/update ROLE:User", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/v1/knowledge/{uuid}/files ROLE:User [SEP] METHOD:DELETE PATH:/api/v1/files/{uuid} ROLE:User", "label": 1}
+{"sequence": "METHOD:GET PATH:/_app/immutable/assets/Help.2c02f5b5.css ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/postcss.d8be052f.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/globals.7f7f1b26.js ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/index.1b49eb31.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/tools/ ROLE:User [SEP] METHOD:GET PATH:/api/v1/functions/ ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/updater.30cc5971.js ROLE:User [SEP] METHOD:GET PATH:/_app/immutable/chunks/dayjs.min.1e504c00.js ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/navigation.e1d2637f.js ROLE:Admin [SEP] METHOD:GET PATH:/_app/immutable/chunks/stores.b48f3e61.js ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/tools/ ROLE:User [SEP] METHOD:GET PATH:/api/v1/functions/ ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/index.a7568345.js ROLE:User [SEP] METHOD:GET PATH:/_app/immutable/chunks/index.320dd4ea.js ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/v1/auths/ ROLE:Admin [SEP] METHOD:GET PATH:/api/v1/configs/ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/chunks/Selector.svelte_svelte_type_style_lang.d3c33061.js ROLE:User [SEP] METHOD:GET PATH:/_app/immutable/assets/Help.2c02f5b5.css ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/_app/immutable/nodes/{id}.395c4caa.js ROLE:User [SEP] METHOD:GET PATH:/_app/immutable/nodes/{id}.fac27654.js ROLE:User", "label": 0}

@@ -1,0 +1,1 @@
+{"fold": "phpapp_studentmgmt", "run": 0, "seed": 42, "variant": "second", "probs": [0.9980753660202026, 0.9980939030647278], "labels": [1, 1], "n_train": 150, "n_eval": 2, "total_steps": 95}

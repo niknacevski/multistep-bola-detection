@@ -1,0 +1,13 @@
+{"sequence": "METHOD:GET PATH:/api/users/{id}/boards ROLE:User [SEP] METHOD:PUT PATH:/api/boards/{id}/custom-fields/{id} ROLE:User", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/boards ROLE:User [SEP] METHOD:PUT PATH:/api/boards/{id} ROLE:User PARAMS:cardId,checklistId", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}/cards/{id}/checklists/{id}/items/{id} ROLE:User [SEP] METHOD:PUT PATH:/api/boards/{id}/cards/{id}/checklists/{id}/items/{id} ROLE:User PARAMS:isFinished", "label": 1}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}GAcZwHjfx6ZNC8qt/cards ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/{id}GAcZwHjfx6ZNC8qt/members ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/LwihSG7HGP9inDsya/customFields ROLE:User [SEP] METHOD:GET PATH:/api/boards/LwihSG7HGP9inDsya/swimlanes ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/YjxWuouoLQaCbqBGG/lists/WYwr3RHHo8wPPiQoS/cards ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/YjxWuouoLQaCbqBGG/swimlanes/JxeQ5J6Qgfw3caAzh ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}XQ9ooaPQQSZFT4k3/cards ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/{id}XQ9ooaPQQSZFT4k3/members ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}ai93tgraDTnfo5rC/members ROLE:User [SEP] METHOD:GET PATH:/api/boards/{id}ai93tgraDTnfo5rC/customFields ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}fEMS4cBbwx3YJ8jK/cards ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/{id}fEMS4cBbwx3YJ8jK/members ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/LwihSG7HGP9inDsya/swimlanes/bfqcWgg2bCdygwqDL ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/LwihSG7HGP9inDsya/swimlanes/enoBmdwB2MuTx49JQ ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/{id}ai93tgraDTnfo5rC/cards ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/{id}ai93tgraDTnfo5rC/members ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/LwihSG7HGP9inDsya/cards ROLE:User [SEP] METHOD:GET PATH:/api/boards/LwihSG7HGP9inDsya/members ROLE:User", "label": 0}
+{"sequence": "METHOD:GET PATH:/api/boards/YjxWuouoLQaCbqBGG/swimlanes ROLE:Admin [SEP] METHOD:GET PATH:/api/boards/YjxWuouoLQaCbqBGG/lists/WYwr3RHHo8wPPiQoS/cards ROLE:Admin", "label": 0}

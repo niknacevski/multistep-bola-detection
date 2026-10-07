@@ -1,0 +1,37 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Nikola Nachevski
+
+This work (the code, notebooks, benchmark annotations, LOAO fold data, and
+documentation in this repository) is licensed under the Creative Commons
+Attribution 4.0 International License. To view a copy of this license,
+visit:
+
+    https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material
+  for any purpose, even commercially, under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+
+---
+
+Notes on third-party components:
+
+1. Benchmark vulnerability cases in `01_benchmark_annotations/` are derived
+   in part from the published BACFuzz and BolaZ works. Please cite those
+   original works, in addition to this artifact and the associated thesis /
+   JISA manuscript, when reusing the benchmark annotations.
+
+2. The Longformer model architecture used in `03_notebooks/` and described
+   by the configuration files in `05_tokenizer_phase3_final/` is subject to
+   its own upstream license from its original publisher/model card. No
+   fine-tuned model weights are redistributed in this repository; only the
+   tokenizer/config files needed to reconstruct the input pipeline are
+   included.
+
+3. Any third-party libraries imported by the notebooks (e.g. Hugging Face
+   Transformers, PyTorch) retain their own respective licenses and are not
+   redistributed here.

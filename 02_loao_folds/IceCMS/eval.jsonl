@@ -1,0 +1,11 @@
+{"sequence": "METHOD:GET PATH:/squareComment/getAllSquare/{val}/{val} ROLE:User [SEP] METHOD:POST PATH:/api/User/ChangeUser/{hex} ROLE:User PARAMS:userId", "label": 1}
+{"sequence": "METHOD:GET PATH:/WebArticle/getUserFavoriteCount/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticle/getUserFavorites/{id}/{id}/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/Websuser/getUserInfobyid/{id} ROLE:Admin [SEP] METHOD:GET PATH:/Websuser/CheckAdmin/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/Websuser/getUserInfobyid/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticle/getArticleById/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/Websuser/getUserInfobyid/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticle/getArticleById/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebArticleComment/getNewArticleComment/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticleComment/getNewArticleComment/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebNotification/list ROLE:Admin [SEP] METHOD:GET PATH:/WebSitting/getLoginConfig ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebArticle/getUserFavorites/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/Websuser/getUserInfobyid/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/Mini/getAllSquare/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticle/getAllArticle/{id}/{id}/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/Websuser/getUserInfobyid/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebArticle/getArticleById/{id} ROLE:Admin", "label": 0}
+{"sequence": "METHOD:GET PATH:/WebArticle/getAllArticle/{id}/{id}/{id} ROLE:Admin [SEP] METHOD:GET PATH:/WebResource/getAllResource/{id}/{id}/{id} ROLE:Admin", "label": 0}
